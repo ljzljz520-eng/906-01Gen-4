@@ -1,0 +1,391 @@
+[
+  {
+    "id": "rent-001",
+    "categoryId": "rent",
+    "name": "房屋租赁合同",
+    "description": "标准房屋租赁合同模板，适用于住宅租赁场景",
+    "downloadCount": 1523,
+    "riskLevel": "medium",
+    "applicableScenarios": [
+      "个人住宅房屋租赁",
+      "租期在1年以上的长期租赁",
+      "需要明确双方权利义务的租赁关系"
+    ],
+    "evidenceList": [
+      "双方身份证明文件",
+      "房屋产权证明文件",
+      "租金支付凭证",
+      "房屋交接确认书"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "房屋租赁合同\n\n出租方（甲方）：\n身份证号：\n联系电话：\n\n承租方（乙方）：\n身份证号：\n联系电话：\n\n根据《中华人民共和国民法典》及相关法律法规的规定，甲乙双方在平等、自愿的基础上，就房屋租赁事宜达成如下协议：\n\n一、房屋基本情况\n二、租赁期限\n三、租金及支付方式\n四、押金\n五、房屋修缮与使用\n六、合同的解除与终止\n七、违约责任\n八、争议解决方式\n\n甲方（签字）：\n乙方（签字）：\n日期：",
+    "downloadUrl": "/templates/rent-001.txt",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "rent-002",
+    "categoryId": "rent",
+    "name": "退租通知书",
+    "description": "承租人提前解除租赁合同的书面通知模板",
+    "downloadCount": 876,
+    "riskLevel": "low",
+    "applicableScenarios": [
+      "承租人需要提前解除租赁合同",
+      "按照合同约定提前通知出租人",
+      "需要留存书面通知证据"
+    ],
+    "evidenceList": [
+      "原租赁合同",
+      "已支付租金凭证",
+      "通知送达证明（如快递单号）"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "退租通知书\n\n致（出租人）：\n\n本人（承租人） ，身份证号 ，与您于 年 月 日签订了关于 （房屋地址）的《房屋租赁合同》。\n\n现因 原因，本人决定依据合同约定，提前解除上述租赁合同。\n\n本人将于 年 月 日正式搬离该房屋，请您届时安排房屋交接事宜。\n\n特此通知。\n\n通知人（签字）：\n日期：",
+    "downloadUrl": "/templates/rent-002.txt",
+    "createdAt": "2024-01-02T00:00:00.000Z",
+    "updatedAt": "2024-01-04T00:00:00.000Z"
+  },
+  {
+    "id": "rent-003",
+    "categoryId": "rent",
+    "name": "租金催缴通知书",
+    "description": "出租人向逾期支付租金的承租人发送的催缴通知",
+    "downloadCount": 654,
+    "riskLevel": "medium",
+    "applicableScenarios": [
+      "承租人逾期支付租金",
+      "需要书面催告承租人支付租金",
+      "准备通过法律途径追讨租金前的催告"
+    ],
+    "evidenceList": [
+      "租赁合同",
+      "租金支付记录",
+      "承租人逾期证明"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "租金催缴通知书\n\n致（承租人）：\n\n根据您与本人于 年 月 日签订的《房屋租赁合同》，您应于每月 日前支付当月租金人民币 元。\n\n截至 年 月 日，您已逾期 天未支付租金，累计拖欠租金人民币 元。\n\n请您在收到本通知后 日内，将拖欠租金及逾期违约金支付至以下账户：\n开户名：\n开户行：\n账号：\n\n如逾期仍未支付，本人将依法解除合同并追究您的违约责任。\n\n特此通知。\n\n出租人（签字）：\n日期：",
+    "downloadUrl": "/templates/rent-003.txt",
+    "createdAt": "2024-01-03T00:00:00.000Z",
+    "updatedAt": "2024-01-04T00:00:00.000Z"
+  },
+  {
+    "id": "rent-004",
+    "categoryId": "rent",
+    "name": "房屋押金退还协议",
+    "description": "租赁关系终止时，关于押金退还的书面协议",
+    "downloadCount": 432,
+    "riskLevel": "low",
+    "applicableScenarios": [
+      "租赁合同到期终止",
+      "双方协商提前解除合同",
+      "需要明确押金退还金额和时间"
+    ],
+    "evidenceList": [
+      "原租赁合同",
+      "押金收据",
+      "房屋交接验收记录"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "房屋押金退还协议\n\n甲方（出租人）：\n乙方（承租人）：\n\n甲乙双方于 年 月 日签订的《房屋租赁合同》已于 年 月 日终止。\n\n经双方验收确认，房屋及附属设施完好无损，乙方无拖欠费用。\n\n甲方同意于 年 月 日前，将房屋押金人民币 元全额退还乙方。\n\n退款方式：\n\n本协议一式两份，双方各执一份，自签字之日起生效。\n\n甲方（签字）：\n乙方（签字）：\n日期：",
+    "downloadUrl": "/templates/rent-004.txt",
+    "createdAt": "2024-01-04T00:00:00.000Z",
+    "updatedAt": "2024-01-05T00:00:00.000Z"
+  },
+  {
+    "id": "labor-001",
+    "categoryId": "labor",
+    "name": "劳动合同书",
+    "description": "标准全日制劳动合同模板，符合劳动合同法规定",
+    "downloadCount": 2341,
+    "riskLevel": "high",
+    "applicableScenarios": [
+      "用人单位与劳动者建立全日制劳动关系",
+      "首次签订劳动合同",
+      "劳动合同到期续签"
+    ],
+    "evidenceList": [
+      "用人单位营业执照副本",
+      "劳动者身份证明",
+      "劳动者学历证明",
+      "入职登记表"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "劳动合同书\n\n甲方（用人单位）：\n法定代表人：\n地址：\n\n乙方（劳动者）：\n身份证号：\n住址：\n\n根据《中华人民共和国劳动合同法》及相关法律法规，甲乙双方本着平等自愿、协商一致的原则，签订本合同。\n\n一、合同期限\n二、工作内容和工作地点\n三、工作时间和休息休假\n四、劳动报酬\n五、社会保险和福利待遇\n六、劳动保护和劳动条件\n七、劳动合同的解除和终止\n八、违约责任\n九、争议解决\n\n甲方（盖章）：\n乙方（签字）：\n日期：",
+    "downloadUrl": "/templates/labor-001.txt",
+    "createdAt": "2024-01-05T00:00:00.000Z",
+    "updatedAt": "2024-01-05T00:00:00.000Z"
+  },
+  {
+    "id": "labor-002",
+    "categoryId": "labor",
+    "name": "辞职申请书",
+    "description": "劳动者向用人单位提出解除劳动合同的书面申请",
+    "downloadCount": 1876,
+    "riskLevel": "low",
+    "applicableScenarios": [
+      "劳动者主动提出辞职",
+      "试用期内提前三日通知",
+      "正式期提前三十日通知"
+    ],
+    "evidenceList": [
+      "劳动合同",
+      "入职证明"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "辞职申请书\n\n尊敬的公司领导：\n\n本人 ，身份证号 ，于 年 月 日入职公司，现任 部门 岗位。\n\n现因个人原因，特向公司提出辞职申请。\n\n本人将按照劳动合同约定，于 年 月 日正式离职（提前30天通知）。\n\n在离职前，我将妥善完成工作交接。\n\n恳请批准。\n\n申请人（签字）：\n日期：",
+    "downloadUrl": "/templates/labor-002.txt",
+    "createdAt": "2024-01-06T00:00:00.000Z",
+    "updatedAt": "2024-01-07T00:00:00.000Z"
+  },
+  {
+    "id": "labor-003",
+    "categoryId": "labor",
+    "name": "劳动仲裁申请书",
+    "description": "劳动者向劳动争议仲裁委员会提交的仲裁申请",
+    "downloadCount": 543,
+    "riskLevel": "high",
+    "applicableScenarios": [
+      "用人单位拖欠工资",
+      "用人单位违法解除劳动合同",
+      "用人单位未缴纳社会保险",
+      "其他劳动争议需要仲裁"
+    ],
+    "evidenceList": [
+      "劳动合同或劳动关系证明",
+      "工资支付凭证",
+      "解除劳动合同通知",
+      "加班记录",
+      "其他相关证据材料"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "劳动争议仲裁申请书\n\n申请人：\n身份证号：\n联系电话：\n住址：\n\n被申请人：\n法定代表人：\n地址：\n联系电话：\n\n仲裁请求：\n1. \n2. \n3. \n\n事实与理由：\n\n\n\n此致\nXX劳动人事争议仲裁委员会\n\n申请人（签字）：\n日期：\n\n附：证据清单",
+    "downloadUrl": "/templates/labor-003.txt",
+    "createdAt": "2024-01-07T00:00:00.000Z",
+    "updatedAt": "2024-01-09T00:00:00.000Z"
+  },
+  {
+    "id": "labor-004",
+    "categoryId": "labor",
+    "name": "解除劳动合同协议书",
+    "description": "用人单位与劳动者协商一致解除劳动合同的协议",
+    "downloadCount": 765,
+    "riskLevel": "medium",
+    "applicableScenarios": [
+      "双方协商一致解除劳动合同",
+      "需要明确经济补偿金支付方式",
+      "避免后续劳动争议"
+    ],
+    "evidenceList": [
+      "原劳动合同",
+      "工资发放记录"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "解除劳动合同协议书\n\n甲方：\n乙方：\n\n甲乙双方于 年 月 日签订了劳动合同，现经双方协商一致，达成如下协议：\n\n一、双方同意于 年 月 日解除劳动合同。\n二、甲方应于 年 月 日前支付乙方经济补偿金人民币 元。\n三、乙方应于 年 月 日前完成工作交接。\n四、双方确认无其他劳动争议。\n五、本协议自双方签字之日起生效。\n\n甲方（盖章）：\n乙方（签字）：\n日期：",
+    "downloadUrl": "/templates/labor-004.txt",
+    "createdAt": "2024-01-08T00:00:00.000Z",
+    "updatedAt": "2024-01-08T00:00:00.000Z"
+  },
+  {
+    "id": "consumer-001",
+    "categoryId": "consumer",
+    "name": "消费者投诉信",
+    "description": "向消费者协会或市场监督管理部门投诉的书面材料",
+    "downloadCount": 987,
+    "riskLevel": "medium",
+    "applicableScenarios": [
+      "购买商品存在质量问题",
+      "接受服务时权益受损",
+      "商家存在虚假宣传",
+      "与商家协商无果"
+    ],
+    "evidenceList": [
+      "购买凭证（发票、收据等）",
+      "商品照片或服务记录",
+      "与商家沟通记录",
+      "其他相关证据"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "消费者投诉信\n\n投诉人：\n身份证号：\n联系电话：\n住址：\n\n被投诉人：\n地址：\n联系电话：\n\n投诉请求：\n1. \n2. \n3. \n\n事实与理由：\n\n本人于 年 月 日，在 处购买/接受了 ，价格为 元。\n\n现因 问题，严重损害了本人的合法权益。\n\n经与商家多次协商未果，特向贵单位投诉，请依法处理。\n\n此致\nXX消费者协会/市场监督管理局\n\n投诉人（签字）：\n日期：\n\n附：证据材料",
+    "downloadUrl": "/templates/consumer-001.txt",
+    "createdAt": "2024-01-09T00:00:00.000Z",
+    "updatedAt": "2024-01-10T00:00:00.000Z"
+  },
+  {
+    "id": "consumer-002",
+    "categoryId": "consumer",
+    "name": "退款申请书",
+    "description": "向商家申请退款的书面材料",
+    "downloadCount": 1234,
+    "riskLevel": "low",
+    "applicableScenarios": [
+      "商品存在质量问题要求退款",
+      "服务未按约定提供要求退款",
+      "符合七天无理由退货条件"
+    ],
+    "evidenceList": [
+      "购买凭证",
+      "商品照片",
+      "问题描述"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "退款申请书\n\n致（商家名称）：\n\n本人 ，于 年 月 日在贵店/平台购买了 ，订单号为 ，价格为人民币 元。\n\n现因 原因，根据《消费者权益保护法》相关规定，特向贵方申请退款。\n\n请贵方在收到本申请后 日内办理退款事宜。\n\n退款方式：\n开户名：\n开户行：\n账号：\n\n申请人（签字）：\n日期：\n\n附：相关证据",
+    "downloadUrl": "/templates/consumer-002.txt",
+    "createdAt": "2024-01-10T00:00:00.000Z",
+    "updatedAt": "2024-01-12T00:00:00.000Z"
+  },
+  {
+    "id": "consumer-003",
+    "categoryId": "consumer",
+    "name": "赔偿请求函",
+    "description": "因商品或服务缺陷造成损害，向经营者要求赔偿的函件",
+    "downloadCount": 432,
+    "riskLevel": "high",
+    "applicableScenarios": [
+      "商品存在缺陷造成人身伤害",
+      "接受服务时受到财产损失",
+      "经营者存在欺诈行为"
+    ],
+    "evidenceList": [
+      "购买凭证",
+      "损害事实证明（照片、医疗记录等）",
+      "损失计算依据"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "赔偿请求函\n\n致（经营者名称）：\n\n本人 ，于 年 月 日在贵处购买/接受了 。\n\n因该商品/服务存在缺陷，导致本人遭受了以下损害：\n1. \n2. \n3. \n\n根据《消费者权益保护法》及《民法典》相关规定，特向贵方提出以下赔偿请求：\n1. 赔偿医疗费 元；\n2. 赔偿误工费 元；\n3. 赔偿精神损害抚慰金 元；\n4. 其他损失 元。\n\n以上合计人民币 元。\n\n请贵方在收到本函后 日内与本人协商赔偿事宜，否则本人将通过法律途径维护权益。\n\n联系人：\n联系电话：\n\n日期：",
+    "downloadUrl": "/templates/consumer-003.txt",
+    "createdAt": "2024-01-11T00:00:00.000Z",
+    "updatedAt": "2024-01-13T00:00:00.000Z"
+  },
+  {
+    "id": "consumer-004",
+    "categoryId": "consumer",
+    "name": "虚假宣传投诉书",
+    "description": "针对经营者虚假宣传行为向监管部门投诉的材料",
+    "downloadCount": 321,
+    "riskLevel": "medium",
+    "applicableScenarios": [
+      "商家广告内容与实际不符",
+      "存在夸大或误导性宣传",
+      "因虚假宣传造成消费者损失"
+    ],
+    "evidenceList": [
+      "广告宣传材料（照片、截图等）",
+      "购买凭证",
+      "实际商品/服务与宣传不符的证明"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "虚假宣传投诉书\n\n投诉人：\n联系电话：\n\n被投诉人：\n地址：\n\n投诉事项：\n\n被投诉人在 （宣传渠道）发布的关于 的宣传内容存在虚假、夸大、误导消费者的情形，具体表现为：\n1. \n2. \n3. \n\n本人因相信上述宣传，于 年 月 日购买了该商品/服务，支付了 元。实际情况与宣传严重不符。\n\n根据《广告法》《消费者权益保护法》等相关规定，恳请贵局依法查处被投诉人的违法行为，并责令其退还本人费用并赔偿损失。\n\n此致\nXX市场监督管理局\n\n投诉人（签字）：\n日期：\n\n附：证据材料",
+    "downloadUrl": "/templates/consumer-004.txt",
+    "createdAt": "2024-01-12T00:00:00.000Z",
+    "updatedAt": "2024-01-14T00:00:00.000Z"
+  },
+  {
+    "id": "neighbor-001",
+    "categoryId": "neighbor",
+    "name": "噪音扰民投诉信",
+    "description": "针对邻居噪音扰民问题的书面投诉材料",
+    "downloadCount": 756,
+    "riskLevel": "low",
+    "applicableScenarios": [
+      "邻居长期制造噪音影响休息",
+      "装修噪音超出规定时间",
+      "家庭娱乐噪音过大"
+    ],
+    "evidenceList": [
+      "噪音录音录像",
+      "噪音分贝测量记录",
+      "与邻居沟通记录"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "噪音扰民投诉信\n\n致（邻居姓名/物业/居委会）：\n\n本人是 小区 号楼 单元 室的业主/住户。\n\n近期， 号楼 单元 室长期存在噪音扰民问题，具体情况如下：\n- 发生时间：\n- 噪音类型：\n- 影响程度：\n\n上述噪音已严重影响本人及家人的正常生活和休息。\n\n根据《环境噪声污染防治法》及相关规定，恳请：\n1. \n2. \n\n请在收到本信后尽快协调解决，否则本人将向相关部门投诉或通过法律途径解决。\n\n投诉人（签字）：\n联系电话：\n日期：",
+    "downloadUrl": "/templates/neighbor-001.txt",
+    "createdAt": "2024-01-13T00:00:00.000Z",
+    "updatedAt": "2024-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "neighbor-002",
+    "categoryId": "neighbor",
+    "name": "采光权纠纷起诉状",
+    "description": "因相邻建筑影响采光，向法院提起诉讼的起诉状",
+    "downloadCount": 234,
+    "riskLevel": "high",
+    "applicableScenarios": [
+      "邻居搭建建筑物影响自家采光",
+      "新建建筑违反规划影响采光",
+      "采光权受到严重侵害"
+    ],
+    "evidenceList": [
+      "房屋产权证明",
+      "影响采光的照片",
+      "采光受影响的时间记录",
+      "规划部门的相关文件"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "民事起诉状\n\n原告：\n身份证号：\n住址：\n联系电话：\n\n被告：\n身份证号：\n住址：\n联系电话：\n\n诉讼请求：\n1. 判令被告立即停止侵害，排除妨碍；\n2. 判令被告赔偿原告经济损失 元；\n3. 本案诉讼费用由被告承担。\n\n事实与理由：\n\n原告系 房屋的所有权人。被告在 （地点）建造/搭建了 ，该建筑严重影响了原告房屋的采光和通风。\n\n根据《民法典》关于相邻关系的规定，不动产的相邻权利人应当按照有利生产、方便生活、团结互助、公平合理的原则，正确处理相邻关系。被告的行为已严重侵害了原告的合法权益。\n\n现特向贵院提起诉讼，恳请依法判决。\n\n此致\nXX人民法院\n\n具状人（签字）：\n日期：",
+    "downloadUrl": "/templates/neighbor-002.txt",
+    "createdAt": "2024-01-14T00:00:00.000Z",
+    "updatedAt": "2024-01-16T00:00:00.000Z"
+  },
+  {
+    "id": "neighbor-003",
+    "categoryId": "neighbor",
+    "name": "共用区域使用协议书",
+    "description": "邻里之间关于共用区域使用的书面约定",
+    "downloadCount": 345,
+    "riskLevel": "low",
+    "applicableScenarios": [
+      "邻里共用的过道、庭院等区域",
+      "需要明确各自使用范围",
+      "避免因共用区域产生纠纷"
+    ],
+    "evidenceList": [
+      "房屋产权证明",
+      "共用区域平面图"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "共用区域使用协议书\n\n甲方：\n住址：\n\n乙方：\n住址：\n\n甲乙双方为邻里关系，就位于 的共用区域使用事宜，经友好协商，达成如下协议：\n\n一、共用区域基本情况\n二、双方使用范围划分\n三、使用规则\n四、维护责任\n五、违约责任\n六、争议解决\n\n本协议一式两份，双方各执一份，自签字之日起生效。\n\n甲方（签字）：\n乙方（签字）：\n日期：",
+    "downloadUrl": "/templates/neighbor-003.txt",
+    "createdAt": "2024-01-15T00:00:00.000Z",
+    "updatedAt": "2024-01-16T00:00:00.000Z"
+  },
+  {
+    "id": "neighbor-004",
+    "categoryId": "neighbor",
+    "name": "漏水纠纷调解申请书",
+    "description": "向居委会或人民调解委员会申请调解邻里漏水纠纷",
+    "downloadCount": 567,
+    "riskLevel": "medium",
+    "applicableScenarios": [
+      "楼上漏水造成楼下损失",
+      "双方就漏水原因和赔偿无法达成一致",
+      "希望通过调解解决纠纷"
+    ],
+    "evidenceList": [
+      "漏水现场照片",
+      "损失物品清单及价值证明",
+      "维修报价单"
+    ],
+    "riskNotes": [],
+    "updateLogs": [],
+    "content": "人民调解申请书\n\n申请人：\n身份证号：\n住址：\n联系电话：\n\n被申请人：\n身份证号：\n住址：\n联系电话：\n\n申请事项：\n请求调解申请人与被申请人之间因漏水引起的财产损害赔偿纠纷。\n\n事实与理由：\n\n申请人居住在 ，被申请人居住在申请人楼上。\n\n自 年 月起，申请人发现家中 位置出现漏水现象，经检查确认漏水来自被申请人家中。\n\n漏水已造成申请人以下损失：\n1. \n2. \n3. \n\n申请人多次与被申请人协商解决，但双方未能达成一致。\n\n现特向贵委员会申请调解，希望能够妥善解决纠纷。\n\n申请人（签字）：\n日期：",
+    "downloadUrl": "/templates/neighbor-004.txt",
+    "createdAt": "2024-01-16T00:00:00.000Z",
+    "updatedAt": "2024-01-18T00:00:00.000Z"
+  }
+]
