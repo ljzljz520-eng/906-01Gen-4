@@ -51,5 +51,9 @@ export interface Lawyer {
   id: string;
   name: string;
   licenseNumber: string;
+  password: string;
+  phone?: string;
+  office?: string;
+  specialties?: string[];
   avatar?: string;
 }

@@ -10,7 +10,8 @@ interface TemplateState {
   loading: boolean
   error: string | null
   searchQuery: string
-  loadData: () => void
+  isInitialized: boolean
+  loadData: (force?: boolean) => void
   getTemplateById: (id: string) => Template | undefined
   getTemplatesByCategory: (categoryId: string) => Template[]
   searchTemplates: (query: string) => Template[]
@@ -27,19 +28,36 @@ export const useTemplateStore = create<TemplateState>()(
       loading: false,
       error: null,
       searchQuery: '',
+      isInitialized: false,
 
-      loadData: () => {
+      loadData: (force = false) => {
+        const { templates, categories, isInitialized } = get()
+        
+        if (!force && isInitialized && templates.length > 0 && categories.length > 0) {
+          return
+        }
+
         set({ loading: true, error: null })
         try {
+          if (force || templates.length === 0) {
+            set({
+              templates: templatesData as Template[],
+            })
+          }
+          if (force || categories.length === 0) {
+            set({
+              categories: categoriesData as Category[],
+            })
+          }
           set({
-            templates: templatesData as Template[],
-            categories: categoriesData as Category[],
             loading: false,
+            isInitialized: true,
           })
         } catch (error) {
           set({
             error: error instanceof Error ? error.message : '加载数据失败',
             loading: false,
+            isInitialized: true,
           })
         }
       },
@@ -119,6 +137,7 @@ export const useTemplateStore = create<TemplateState>()(
       partialize: (state) => ({
         templates: state.templates,
         categories: state.categories,
+        isInitialized: state.isInitialized,
       }),
     }
   )

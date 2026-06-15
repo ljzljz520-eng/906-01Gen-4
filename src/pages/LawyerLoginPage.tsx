@@ -36,12 +36,12 @@ export default function LawyerLoginPage() {
 
     await new Promise((resolve) => setTimeout(resolve, 500));
 
-    const success = login(licenseNumber.trim());
+    const success = login(licenseNumber.trim(), password.trim());
 
     if (success) {
       navigate('/');
     } else {
-      setError('执业证号不正确，请检查后重试');
+      setError('执业证号或密码不正确，请检查后重试');
     }
 
     setIsLoading(false);
@@ -111,7 +111,7 @@ export default function LawyerLoginPage() {
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  placeholder="请输入密码（任意密码即可）"
+                  placeholder="请输入您的登录密码"
                   className="input-field pl-12"
                   disabled={isLoading}
                 />
@@ -136,7 +136,7 @@ export default function LawyerLoginPage() {
 
           <div className="mt-8 pt-6 border-t border-gray-100">
             <p className="text-sm text-primary-600 mb-4">
-              💡 演示账号提示：可使用以下执业证号登录
+              💡 演示账号提示：点击下方账号快速填充（默认密码：lawyer2024）
             </p>
             <div className="space-y-2">
               {demoAccounts.map((lawyer) => (
@@ -145,7 +145,7 @@ export default function LawyerLoginPage() {
                   type="button"
                   onClick={() => {
                     setLicenseNumber(lawyer.licenseNumber);
-                    setPassword('123456');
+                    setPassword('lawyer2024');
                   }}
                   className="w-full text-left p-3 bg-primary-50 hover:bg-primary-100 rounded-lg transition-colors group"
                 >

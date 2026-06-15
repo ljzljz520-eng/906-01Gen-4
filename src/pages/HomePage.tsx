@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Shield, AlertTriangle, Download, Gavel, Search } from 'lucide-react';
 import { useTemplateStore } from '../store/useTemplateStore';
 import CategoryCard from '../components/CategoryCard';
@@ -7,7 +8,8 @@ import type { Category, Template } from '../types';
 import { cn } from '../lib/utils';
 
 export default function HomePage() {
-  const { loadData, categories, templates, loading, searchTemplates } = useTemplateStore();
+  const navigate = useNavigate();
+  const { loadData, categories, templates, loading } = useTemplateStore();
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
@@ -20,7 +22,9 @@ export default function HomePage() {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    searchTemplates(searchQuery);
+    if (searchQuery.trim()) {
+      navigate(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+    }
   };
 
   const features = [

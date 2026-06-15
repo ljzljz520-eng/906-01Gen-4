@@ -6,7 +6,7 @@ import type { Lawyer } from '../types'
 interface LawyerState {
   currentLawyer: Lawyer | null
   isLoggedIn: boolean
-  login: (licenseNumber: string) => boolean
+  login: (licenseNumber: string, password: string) => boolean
   logout: () => void
 }
 
@@ -16,13 +16,14 @@ export const useLawyerStore = create<LawyerState>()(
       currentLawyer: null,
       isLoggedIn: false,
 
-      login: (licenseNumber: string) => {
+      login: (licenseNumber: string, password: string) => {
         const lawyer = (lawyersData as Lawyer[]).find(
-          (l) => l.licenseNumber === licenseNumber
+          (l) => l.licenseNumber === licenseNumber && l.password === password
         )
         if (lawyer) {
+          const { password: _, ...lawyerWithoutPassword } = lawyer
           set({
-            currentLawyer: lawyer,
+            currentLawyer: lawyerWithoutPassword as Lawyer,
             isLoggedIn: true,
           })
           return true
